@@ -120,6 +120,6 @@ var body = document.getElementById("body");
 body.style.marginTop = `${(visualViewport.height - 366)/2}px`;
 body.style.display = "inline-block";
 body.style.width = "331px";
-body.style.marginLeft = `${(visualViewport.width - 331)/2}px`;
+body.style.marginLeft = `${(visualViewport.width - 350)/2}px`;
 
 var battery_icon = document.getElementById("battery-icon");
