@@ -117,9 +117,9 @@ var html = document.getElementById("root");
 html.style.height = `${visualViewport.height}px`;
 
 var body = document.getElementById("body");
-body.style.marginTop = `${(visualViewport.height - 366)/2}px`;
+body.style.marginTop = `${(visualViewport.height - 550)/2}px`;
 body.style.display = "inline-block";
-body.style.width = "340px";
-body.style.marginLeft = `${(visualViewport.width - 340)/2}px`;
+body.style.width = "495px";
+body.style.marginLeft = `${(visualViewport.width - 495)/2}px`;
 
 var battery_icon = document.getElementById("battery-icon");
