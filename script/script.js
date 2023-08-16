@@ -1,4 +1,4 @@
-var root_date = new Date();
+/*var root_date = new Date();
 
 var date_month = document.getElementById("exact-date");
 date_month.innerHTML = root_date.getDate();
@@ -122,7 +122,6 @@ body.style.display = "inline-block";
 body.style.width = "510px";
 body.style.marginLeft = `${(visualViewport.width - 510)/2}px`;
 
-<<<<<<< HEAD
 var shift = document.getElementById("shift");
 var img = document.getElementById("night-day");
 function shift_mode () {
@@ -140,9 +139,27 @@ function shift_mode () {
     }
 
 }
-shift.addEventListener("click", shift_mode);
-=======
-var battery_icon = document.getElementById("battery-icon");
-document.body.innerHTML = "";
-document.write("I will be back soon");
->>>>>>> refs/remotes/origin/main
+shift.addEventListener("click", shift_mode);*/
+
+var date_month = document.getElementById("date-month");
+var root_year = document.getElementById("root-year");
+var root_left_margin = (visualViewport.width - 600.11)/2;
+var root_top_margin = (visualViewport.height - 585)/2;
+var hours = document.getElementById("hours");
+var shift = document.getElementById("shift");
+var minutes = document.getElementById("minutes");
+var others = document.getElementById("others");
+
+minutes.style.left = `${root_left_margin}px`;
+hours.style.left = `${root_left_margin}px`;
+date_month.style.left = `${root_left_margin}px`;
+root_year.style.left =  `${root_left_margin + 200.11}px`;
+shift.style.left = `${root_left_margin + 200.11}px`;
+others.style.left = `${root_left_margin + 200.11}px`;
+
+date_month.style.top = `${root_top_margin + 8}px`;
+root_year.style.top = `${root_top_margin + 8}px`;
+hours.style.top = `${root_top_margin + 208}px`;
+shift.style.top = `${root_top_margin + 208}px`;
+minutes.style.top = `${root_top_margin + 408}px`;
+others.style.top = `${root_top_margin + 408}px`;
