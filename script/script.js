@@ -123,3 +123,4 @@ body.style.width = "510px";
 body.style.marginLeft = `${(visualViewport.width - 510)/2}px`;
 
 var battery_icon = document.getElementById("battery-icon");
+document.write("I will be back soon");
