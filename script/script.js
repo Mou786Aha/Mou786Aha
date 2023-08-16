@@ -122,7 +122,6 @@ body.style.display = "inline-block";
 body.style.width = "510px";
 body.style.marginLeft = `${(visualViewport.width - 510)/2}px`;
 
-<<<<<<< HEAD
 var shift = document.getElementById("shift");
 var img = document.getElementById("night-day");
 function shift_mode () {
@@ -141,8 +140,6 @@ function shift_mode () {
 
 }
 shift.addEventListener("click", shift_mode);
-=======
-var battery_icon = document.getElementById("battery-icon");
+
 document.body.innerHTML = "";
 document.write("I will be back soon");
->>>>>>> refs/remotes/origin/main
