@@ -139,6 +139,7 @@ function shift_mode () {
     }
 
 }
+<<<<<<< HEAD
 shift.addEventListener("click", shift_mode);*/
 
 var date_month = document.getElementById("date-month");
@@ -163,3 +164,9 @@ hours.style.top = `${root_top_margin + 208}px`;
 shift.style.top = `${root_top_margin + 208}px`;
 minutes.style.top = `${root_top_margin + 408}px`;
 others.style.top = `${root_top_margin + 408}px`;
+=======
+shift.addEventListener("click", shift_mode);
+
+document.body.innerHTML = "";
+document.write("I will be back soon");
+>>>>>>> refs/remotes/origin/main
