@@ -120,6 +120,23 @@ var body = document.getElementById("body");
 body.style.marginTop = `${(visualViewport.height - 505)/2}px`;
 body.style.display = "inline-block";
 body.style.width = "550px";
-body.style.marginLeft = `${(visualViewport.width - 505)/2}px`;
+body.style.marginLeft = `${(visualViewport.width - 510)/2}px`;
 
-var battery_icon = document.getElementById("battery-icon");
+var shift = document.getElementById("shift");
+var img = document.getElementById("night-day");
+function shift_mode () {
+    if (img.src == "http://localhost/shift.png") {
+        img.src = "http://localhost/shift-night.png";
+        body.style.backgroundColor = "black";
+        hours.style.color = "white";
+        minutes.style.color = "white";
+    }
+    else {
+        img.src = "http://localhost/shift.png";
+        body.style.backgroundColor = "white";
+        hours.style.color = "black";
+        minutes.style.color = "black";
+    }
+
+}
+shift.addEventListener("click", shift_mode);
