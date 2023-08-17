@@ -165,4 +165,4 @@ shift.style.top = `${root_top_margin + 208}px`;
 minutes.style.top = `${root_top_margin + 408}px`;
 others.style.top = `${root_top_margin + 408}px`; }
 
-setTimeout(root, 1000);
+setTimeout(root, 100);
