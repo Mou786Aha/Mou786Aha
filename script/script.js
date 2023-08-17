@@ -141,7 +141,7 @@ function shift_mode () {
 }
 <<<<<<< HEAD
 shift.addEventListener("click", shift_mode);*/
-function root () {
+
 var date_month = document.getElementById("date-month");
 var root_year = document.getElementById("root-year");
 var root_left_margin = (visualViewport.width - 600.11)/2;
@@ -163,6 +163,4 @@ root_year.style.top = `${root_top_margin + 8}px`;
 hours.style.top = `${root_top_margin + 208}px`;
 shift.style.top = `${root_top_margin + 208}px`;
 minutes.style.top = `${root_top_margin + 408}px`;
-others.style.top = `${root_top_margin + 408}px`; }
-
-setTimeout(root, 100);
+others.style.top = `${root_top_margin + 408}px`;
