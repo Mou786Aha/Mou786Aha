@@ -287,14 +287,14 @@ setInterval(set_correct_position);
 var body = document.getElementById("body");
 var img = document.getElementById("night-day");
 function shift_mode () {
-    if (img.src == "https://localhost/shift.png") {
-        img.src = "https://localhost/shift-night.png";
+    if (img.src == "shift.png") {
+        img.src = "shift-night.png";
         body.style.backgroundColor = "black";
         hours.style.color = "white";
         minutes.style.color = "white";
     }
     else {
-        img.src = "https://localhost/shift.png";
+        img.src = "shift.png";
         body.style.backgroundColor = "white";
         hours.style.color = "black";
         minutes.style.color = "black";
