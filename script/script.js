@@ -165,6 +165,7 @@ hours.style.top = `${root_top_margin + 208}px`;
 root_shift.style.top = `${root_top_margin + 208}px`;
 minutes.style.top = `${root_top_margin + 408}px`;
 others.style.top = `${root_top_margin + 408}px`;
+<<<<<<< HEAD
 
 var exact_date = document.getElementById("exact-date");
 exact_date.innerHTML = root_date.getDate();
@@ -302,3 +303,5 @@ function shift_mode () {
 
 }
 root_shift.addEventListener("click", shift_mode);
+=======
+>>>>>>> refs/remotes/origin/main
